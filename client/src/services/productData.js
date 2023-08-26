@@ -1,4 +1,4 @@
-const baseUrl = 'http://quickie-lilac.vercel.app';
+const baseUrl = 'https://quickie-lilac.vercel.app';
 
 export async function getAll(page, category, query) {
     if (query !== "" && query !== undefined) {
