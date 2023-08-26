@@ -9,10 +9,10 @@ function Footer() {
                 <div className="connections">
                     <a href="/#" id="instaIcon"><AiFillInstagram /></a>
                     <a href="/#" id="fbIcon"><FaFacebook /></a>
-                    <a href="https://www.linkedin.com/in/iva-tosheva/" target="_blank" rel="noreferrer" id="linkedIcon"><AiFillLinkedin /></a>
+                    <a href="https://www.linkedin.com/in/gushu-rivan-tumwesigye-09a805278" target="_blank" rel="noreferrer" id="linkedIcon"><AiFillLinkedin /></a>
                 </div>
                 All Rights Reserved &copy; 2021 &#8226;
-                <a href="https://github.com/Angel-Sky/ReactJS-Project" target="_blank" rel="noreferrer">Amalgsoft</a>
+                <a href="/#" target="_blank" rel="noreferrer">Amalgsoft</a>
             </div>
         </footer >
     )
