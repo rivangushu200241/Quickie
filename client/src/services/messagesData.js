@@ -1,4 +1,4 @@
-const baseUrl = 'https://quickie-lilac.vercel.app';
+const baseUrl = 'http://quickie-lilac.vercel.app';
 
 export async function createChatRoom(receiver, message) {
     return (await fetch(`${baseUrl}/messages/createChatRoom`, {
