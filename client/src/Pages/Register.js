@@ -55,7 +55,7 @@ function Register({ history }) {
                     <Form.Row>
                         <Form.Group controlId="forName" className="col-lg-8">
                             <Form.Label>Name *</Form.Label>
-                            <Form.Control type="text" name="name" placeholder="Ivan Ivanov" onChange={handleChanges} required />
+                            <Form.Control type="text" name="name" placeholder="Ravix Ken" onChange={handleChanges} required />
                             <Form.Text muted>
                                 The name can be your real one or a username.
                             </Form.Text>
@@ -76,7 +76,7 @@ function Register({ history }) {
                     <Form.Row>
                         <Form.Group className="col-lg-12">
                             <Form.Label>Phone Number *</Form.Label>
-                            <Form.Control type="text" name="phoneNumber" placeholder="+359888888888" onChange={handleChanges} required />
+                            <Form.Control type="text" name="phoneNumber" placeholder="+256772810560" onChange={handleChanges} required />
                             <Form.Text muted>
                                 Phone Number should be a valid BG number.
                             </Form.Text>
@@ -85,7 +85,7 @@ function Register({ history }) {
                     <Form.Row>
                         <Form.Group controlId="formBasicEmail" className="col-lg-12">
                             <Form.Label>Email address *</Form.Label>
-                            <Form.Control type="email" name="email" placeholder="ivan@abv.bg" onChange={handleChanges} required />
+                            <Form.Control type="email" name="email" placeholder="ravix@gmail.com" onChange={handleChanges} required />
                         </Form.Group>
                     </Form.Row>
                     <Form.Row>
