@@ -1,7 +1,7 @@
 const router = require('express').Router();
 const authService = require('../services/authService');
-const isAuth = require('../middlewares/isAuth');
-const isGuest = require('../middlewares/isGuest');
+// const isAuth = require('../middlewares/isAuth');
+// const isGuest = require('../middlewares/isGuest');
 const { SECRET, COOKIE_NAME } = require('../config/config');
 const jwt = require('jsonwebtoken');
 
