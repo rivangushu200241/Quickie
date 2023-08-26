@@ -2,7 +2,7 @@ const { Router } = require('express');
 const router = Router();
 const { cloudinary } = require('../config/cloudinary');
 const User = require('../models/User');
-// const isAuth = require('../middlewares/isAuth')
+const isAuth = require('../middlewares/isAuth')
 const productService = require('../services/productService');
 const userService = require('../services/userService');
 
