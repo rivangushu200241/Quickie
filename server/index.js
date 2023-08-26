@@ -9,12 +9,12 @@ require('./config/express')(app);
 require('./config/mongoose');
 app.use(auth())
 
-// const io = require("socket.io")(http, {
-//     cors: {
-//         origin: ["http://localhost:3000/"],
-//         credentials: true
-//     }
-// });
+const io = require("socket.io")(http, {
+    cors: {
+        origin: ["https://quickie-ztoq.vercel.app"],
+        credentials: true
+    }
+});
 
 // const ChatRoom = require('./models/ChatRoom')
 
