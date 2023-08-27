@@ -3,7 +3,7 @@ const config = {
     PORT: process.env.PORT || 5000,
     //DB_CONNECTION: `mongodb://localhost/${TABLE_NAME}`,
     DB_CONNECTION: `mongodb+srv://burnaboyfamily:7W5Fo0ZPuyJTqVYr@all-for-you.ekemtih.mongodb.net/all-for-you?retryWrites=true&w=majority`,
-    SECRET: '',
+    SECRET: 'secret',
     SALT: 10,
     COOKIE_NAME: 'USER_SESSION',
     CLOUDINARY_NAME: 'dmby7t9rd',
