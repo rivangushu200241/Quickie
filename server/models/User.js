@@ -36,7 +36,7 @@ const userSchema = new mongoose.Schema({
     },
     avatar: {
         type: String,
-        default: 'https://res.cloudinary.com/silenceiv/image/upload/q_auto:eco/v1617358367/defaultAvatar_wnoogh.png'
+        default: 'https://res.cloudinary.com/dmby7t9rd/image/upload/v1693143064/male-avatar_jp1apo.jpg'
     },
     createdSells: [
         {
