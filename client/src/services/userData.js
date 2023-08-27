@@ -1,4 +1,4 @@
-const baseUrl = 'http://localhost:5000';
+const baseUrl = 'https://quickie-lilac.vercel.app';
 
 export async function registerUser(userData) {
     return (await fetch(`${baseUrl}/auth/register`, {
