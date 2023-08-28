@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "private": true,
-  "proxy":"https://quickie-ztoq.vercel.app/auth/login",
   "main": "index.js",
   "scripts": {
     "start": "nodemon index.js",

@@ -11,7 +11,7 @@ async function getUserById(userId) {
 
 module.exports = {
     edit,
-    getUserById
-    // userCollectionUpdate,
-    // findUserById
+    getUserById,
+    userCollectionUpdate,
+    findUserById
 }
