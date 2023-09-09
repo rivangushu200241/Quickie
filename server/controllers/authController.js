@@ -25,7 +25,7 @@ router.post('/login', (req, res) => {
                     req.user = decoded;
                     res
                         .status(200)
-                        .cookie(COOKIE_NAME, token, { sameSite: 'none', secure: true, httpOnly: true })
+                        .cookie(COOKIE_NAME, token, { sameSite: 'none', secure: 'false' , httpOnly: true, })
                         .json({ user: decoded })
                 }
             })
